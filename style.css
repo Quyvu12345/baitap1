@@ -21,7 +21,7 @@ p {
     display: flex;
     justify-content: center;
      width: 100%;
-    padding: 20px; /* Thêm padding để tạo khoảng cách với các div con */
+    padding: 20px; /
     margin-top: -200px;
 }
 
@@ -32,8 +32,8 @@ p {
 
 .bd {
     flex: 1;
-    padding: 10px; /* Thêm padding để tạo khoảng cách giữa các div con */
-    background-color: red; /* Đặt màu nền đỏ cho các div con */
+    padding: 10px; 
+    background-color: red;
 }
 .boder {
     display: flex;
@@ -46,8 +46,8 @@ p {
     flex: 1;
     padding: 20px;
     background-color: rgb(108, 93, 205);
-    margin-right: 30px; /* Khoảng cách 10px giữa các div */
-    border: none; /* Thêm viền cho mỗi div */
+    margin-right: 30px; 
+    border: none; 
     color: rgb(177, 70, 70);
     justify-content: center;
     text-align: center;
@@ -76,7 +76,7 @@ p {
     
     left: 50%;
     transform: translate(-50%, -50%);
-    text-align: center; /* Căn giữa nội dung của .name */
+    text-align: center;
 }
 
 
