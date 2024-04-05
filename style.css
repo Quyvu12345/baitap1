@@ -1,0 +1,87 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; 
+    flex-direction: row; 
+}
+
+.line {
+    flex: 1; 
+    height: 1px; 
+    background-color: black;
+    margin: 0 10px; 
+}
+
+p {
+    margin: 0; 
+}
+
+.quanhaha {
+    display: flex;
+    justify-content: center;
+     width: 100%;
+    padding: 20px; /* Thêm padding để tạo khoảng cách với các div con */
+    margin-top: -200px;
+}
+
+.boder {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bd {
+    flex: 1;
+    padding: 10px; /* Thêm padding để tạo khoảng cách giữa các div con */
+    background-color: red; /* Đặt màu nền đỏ cho các div con */
+}
+.boder {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    
+}
+
+.bd {
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(108, 93, 205);
+    margin-right: 30px; /* Khoảng cách 10px giữa các div */
+    border: none; /* Thêm viền cho mỗi div */
+    color: rgb(177, 70, 70);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+.po {
+    position: relative;
+}
+
+.line2 {
+    position: absolute;
+    top: 50%; 
+    left: 0; 
+    right: 0; 
+    transform: translateY(-50%);
+}
+
+.name {
+    position: relative; 
+    z-index: 2; 
+    
+    border: 1px; 
+    background-color: aliceblue;
+    width: 20%;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Căn giữa nội dung của .name */
+}
+
+
+
+
+
+
+
